@@ -3,12 +3,12 @@
  * @date 2023年02月23日22:29
  */
 
-class CQueue {
+class Day1_CQueue {
 
     int tail;
     int head;
     int[] nums;
-    public CQueue() {
+    public Day1_CQueue() {
         nums = new int[10000];
         tail = 0;
         head = 0;

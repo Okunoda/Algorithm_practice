@@ -6,12 +6,12 @@ import java.util.Stack;
  * @date 2023年02月23日22:42
  */
 
-class MinStack {
+class Day1_MinStack {
 
     /** initialize your data structure here. */
     int min  = Integer.MAX_VALUE;
     Stack<Integer> stack ;
-    public MinStack() {
+    public Day1_MinStack() {
         stack = new Stack<>();
     }
 
