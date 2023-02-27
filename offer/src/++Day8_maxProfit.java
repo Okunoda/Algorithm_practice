@@ -2,7 +2,7 @@
  * @author Okunoda
  * @date 2023年02月27日19:22
  */
-public class Day8_maxProfit {
+ class Day8_maxProfit {
     //暴力解法，可以ac，但是不推荐，想不出dp解法
     public int maxProfit(int[] prices) {
 
