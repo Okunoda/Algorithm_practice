@@ -6,6 +6,7 @@ package okunoda;
 public class easy_mergeTwoLists {
     /**
      * 要是做所有题都能像这样秒杀该多好
+     *
      * @param list1
      * @param list2
      * @return
@@ -35,5 +36,21 @@ public class easy_mergeTwoLists {
             tmp = tmp.next;
         }
         return head.next;
+    }
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 }
