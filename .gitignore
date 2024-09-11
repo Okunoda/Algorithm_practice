@@ -7,3 +7,5 @@
 /offer/.idea/
 /leetcode.iml
 /leetcode/target/
+
+*.iml
